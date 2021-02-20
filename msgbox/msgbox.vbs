@@ -14,7 +14,7 @@ Else
 	x = MsgBox("Ah, bon...", vbInformation, "Exemple")
 End If
 
-x = MsgBox("Ceci est une boîte avec de l'aide où le texte est aligné à droite.", vbMsgBoxHelpButton + vbMsgBoxRight, "Même le titre ^^")
+x = MsgBox("Ceci est une boîte avec de l'aide où le texte est aligné à droite.", vbMsgBoxHelpButton + vbMsgBoxRight, "Même le titre ^^ (sous win7)")
 
 count = 0
 Do While count < 5
